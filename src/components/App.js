@@ -29,6 +29,7 @@ export default App;
 
 const StyledWrapper = styled.div`
   text-align: center;
+  height: 100vh;
 
   .App-logo {
     height: 40vmin;

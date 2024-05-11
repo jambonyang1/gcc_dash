@@ -1,13 +1,21 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import styled from "styled-components";
 
-const works = () => {
+const Works = () => {
   return (
-    <div>
-      <h1>작품 페이지</h1>
-    </div>
+    <StyledWrapper>
+      <h1>작업 페이지</h1>
+    </StyledWrapper>
   );
 };
 
-export default works;
+export default Works;
+
+const StyledWrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 calc(50vw - 640px);
+  justify-content: center;
+  align-items: center;
+`;
