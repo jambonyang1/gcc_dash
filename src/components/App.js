@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import FooterNavigation from "./FooterNavigation";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "./main";
 import Works from "./works";
 import Mento from "./mento";
@@ -16,11 +16,6 @@ function App() {
         <Route path="/mypage" element={<Mypage />} />
       </Routes>
       <FooterNavigation />
-      {/* <BottomNavigation>
-        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
-      </BottomNavigation> */}
     </StyledWrapper>
   );
 }

@@ -7,7 +7,7 @@ export default function FooterNavigation() {
     <StyledWrapper>
       <ul className="nav justify-content-center fixed-bottom bg-white">
         <li className="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/main">
+          <Link className="nav-link active" aria-current="page" to="/main">
             main
           </Link>
         </li>
