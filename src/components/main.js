@@ -9,7 +9,6 @@ const Main = () => {
       {data.data.map((event, index) => (
         <Work key={index} event={event} />
       ))}
-      \
     </StyledWrapper>
   );
 };

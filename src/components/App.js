@@ -5,17 +5,18 @@ import Main from "./main";
 import Mentor from "./mentor";
 import Mypage from "./mypage";
 import Footer from "./FooterCustom";
-
+import logo from "./salm.png";
 function App() {
   return (
     <StyledWrapper>
+      <img src={logo} alt="logo" className="logo" />
       <Routes>
         <Route path="/main" element={<Main />} />
         <Route path="/mentor" element={<Mentor />} />
         <Route path="/mypage" element={<Mypage />} />
       </Routes>
+      <div className="foot"></div>
       <Footer />
-      {/* <FooterNavigation /> */}
     </StyledWrapper>
   );
 }
@@ -32,11 +33,14 @@ const StyledWrapper = styled.div`
     rgba(255, 243, 233, 1) 100%
   );
 
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+  .logo {
+    margin: 20px;
+    width: 70px;
   }
-
+  .foot {
+    margin: 50px;
+    height: 50px;
+  }
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
