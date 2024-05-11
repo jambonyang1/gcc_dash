@@ -1,0 +1,87 @@
+{
+    "status": 200,
+    "success": true,
+    "message": "모든 활동 조회 성공",
+    "data": [
+      {
+        "category": 1,
+        "title": "하늘보육원 음악강의",
+        "place": "서울시 송파구 방이동",
+        "date": "24년 5월 23일 16:00",
+        "duration": "2시간",
+        "keyword": ["Music", "Teaching"],
+        "info": "하늘 보육원에서 음악 강의를 해주실 분\n모십니다. 피아노, 작곡, 바이올린 등\n분야 상관없이 모두 괜찮습니다.",
+        "request": true
+      },
+      {
+        "category": 2,
+        "title": "유기견 산책 봉사",
+        "place": "서울시 성동구 광나루동",
+        "date": "24년 5월 23일 12:00",
+        "duration": "3시간",
+        "keyword": ["Volunteering", "Community"],
+        "info": "광나루동의 유기견 보호소에서\n주말 봉사활동을 함께할 참여자를 모집합니다.\n한강변을 산책할 예정입니다",
+        "request": false
+      },
+      {
+        "category": 3,
+        "title": "코딩 멘토링 참가자 모집",
+        "place": "경기도 성남시 분당구 정자동",
+        "date": "24년 5월 28일 14:00",
+        "duration": "4시간",
+        "keyword": ["Coding", "mentorrship"],
+        "info": "컴퓨터 교육센터에서 코딩 멘토링에 참여할 멘토를\n모집합니다. 초급부터 고급까지 다양한 수준의 \n학습자들에게 가르쳐주실 분들을 기다립니다.",
+        "request": false
+      },
+      {
+        "category": 2,
+        "title": "도시락 나눔 봉사활동 참여자 모집",
+        "place": "서울시 강남구 역삼동",
+        "date": "24년 5월 29일 11:00",
+        "duration": "2시간",
+        "keyword": ["Volunteering", "Community", "Food Donation"],
+        "info": "사회복지센터에서 도시락 나눔 봉사활동을\n함께할 참여자를 모집합니다.\n행복을 전하는 작은 봉사에 참여해보세요!",
+        "request": true
+      },
+      {
+        "category": 3,
+        "title": "영어 회화 수업 선생님 모집",
+        "place": "경기도 고양시 일산동",
+        "date": "24년 5월 30일 18:00",
+        "duration": "1시간",
+        "keyword": ["English", "Conversation"],
+        "info": "자신 있는 분야가 아니라도 적극적인 참여로\n함께 소통하는 것이 목적입니다.",
+        "request": false
+      },
+      {
+        "category": 1,
+        "title": "피아노 강의 선생님 모집",
+        "place": "서울시 강남구 역삼동",
+        "date": "24년 5월 31일 15:00",
+        "duration": "2시간",
+        "keyword": ["Music", "Teaching"],
+        "info": "강남구 역삼동의 음악학원에서 피아노 강의를\n해주실 선생님을 모집합니다. 선생님의\n전문성을 중요하게 생각합니다.",
+        "request": true
+      },
+      {
+        "category": 2,
+        "title": "노인복지센터 방문 봉사",
+        "place": "서울시 강남구 역삼동",
+        "date": "24년 6월 1일 10:00",
+        "duration": "3시간",
+        "keyword": ["Volunteering", "Community"],
+        "info": "강남구 역삼동의 노인복지센터에서\n주말 봉사활동을 함께할 참여자를 모집합니다.\n노인들과 함께하는 시간을 소중히 여기며\n참여해주세요.",
+        "request": false
+      },
+      {
+        "category": 3,
+        "title": "프로그래밍 스터디 모집",
+        "place": "서울시 강남구 역삼동",
+        "date": "24년 6월 2일 14:00",
+        "duration": "4시간",
+        "keyword": ["Coding", "Study"],
+        "info": "강남구 역삼동의 스터디 카페에서\n프로그래밍 스터디를 함께할 스터디원을 모집합니다.",
+        "request": false
+      }
+    ]
+  }

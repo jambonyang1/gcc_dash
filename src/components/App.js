@@ -1,21 +1,21 @@
 import styled from "styled-components";
-import FooterNavigation from "./FooterNavigation";
+// import FooterNavigation from "./FooterNavigation";
 import { Routes, Route } from "react-router-dom";
 import Main from "./main";
-import Works from "./works";
-import Mento from "./mento";
+import Mentor from "./mentor";
 import Mypage from "./mypage";
+import Footer from "./FooterCustom";
 
 function App() {
   return (
     <StyledWrapper>
       <Routes>
         <Route path="/main" element={<Main />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/mento" element={<Mento />} />
+        <Route path="/mentor" element={<Mentor />} />
         <Route path="/mypage" element={<Mypage />} />
       </Routes>
-      <FooterNavigation />
+      <Footer />
+      {/* <FooterNavigation /> */}
     </StyledWrapper>
   );
 }
@@ -25,6 +25,12 @@ export default App;
 const StyledWrapper = styled.div`
   text-align: center;
   height: 100vh;
+  background: rgb(255, 255, 243);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 243, 1) 0%,
+    rgba(255, 243, 233, 1) 100%
+  );
 
   .App-logo {
     height: 40vmin;

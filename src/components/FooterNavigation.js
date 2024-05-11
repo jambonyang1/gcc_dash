@@ -8,17 +8,12 @@ export default function FooterNavigation() {
       <ul className="nav justify-content-center fixed-bottom bg-white">
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/main">
-            main
+            <div>main</div>
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="mento">
-            mento
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="works">
-            works
+          <Link className="nav-link" to="mentor">
+            mentor
           </Link>
         </li>
         <li className="nav-item">
@@ -40,7 +35,6 @@ const StyledWrapper = styled.div`
   position: sticky;
   background-color: white;
   z-index: 1000;
-  border-top: 1px solid black;
 
   .icon {
     width: 50px;
@@ -48,10 +42,14 @@ const StyledWrapper = styled.div`
   }
 
   .nav {
-    border-top: 1px solid grey;
+    border-top: 1px solid rgba(236, 236, 236);
 
     .nav-item {
       font-style: black;
+    }
+
+    .nav-link {
+      color: black;
     }
   }
 `;

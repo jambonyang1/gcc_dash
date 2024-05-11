@@ -1,10 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import data from "./user.json";
 
 const Mypage = () => {
   return (
     <StyledWrapper>
-      <h1>마이 페이지</h1>
+      <p>이름: {data.data.name}</p>
+      <p>나이: {data.data.age}</p>
+      <p>한줄소개: {data.data.bio}</p>
+      <p>학력: {data.data.education}</p>
+      <p>경력: {data.data.experience}</p>
     </StyledWrapper>
   );
 };

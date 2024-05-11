@@ -1,0 +1,14 @@
+{
+    "status": 200,
+    "success": true,
+    "message": "모든 활동 조회 성공",
+    "data": 
+      {
+        "userId": 1,
+        "name": "김광호",
+        "profileImage": "~~~",
+        "bio": "항상 유쾌한 웃음으로 긍정적인 마인드셋을 잃지 않습니다.",
+        "education": "서울대학교 전기공학부",
+        "experience": "삼성전자 부장"
+      }
+}
