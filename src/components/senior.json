@@ -1,87 +1,55 @@
 {
-    "status": 200,
-    "success": true,
-    "message": "모든 활동 조회 성공",
-    "data": [
-      {
-        "category": 1,
-        "title": "하늘보육원 음악강의",
-        "place": "서울시 송파구 방이동",
-        "date": "24년 5월 23일 16:00",
-        "duration": "2시간",
-        "keyword": ["Music", "Teaching"],
-        "info": "하늘 보육원에서 음악 강의를 해주실 분\n모십니다. 피아노, 작곡, 바이올린 등\n분야 상관없이 모두 괜찮습니다.",
-        "request": true
-      },
-      {
-        "category": 2,
-        "title": "유기견 산책 봉사",
-        "place": "서울시 성동구 광나루동",
-        "date": "24년 5월 23일 12:00",
-        "duration": "3시간",
-        "keyword": ["Volunteering", "Community"],
-        "info": "광나루동의 유기견 보호소에서\n주말 봉사활동을 함께할 참여자를 모집합니다.\n한강변을 산책할 예정입니다",
-        "request": false
-      },
-      {
-        "category": 3,
-        "title": "코딩 멘토링 참가자 모집",
-        "place": "경기도 성남시 분당구 정자동",
-        "date": "24년 5월 28일 14:00",
-        "duration": "4시간",
-        "keyword": ["Coding", "mentorrship"],
-        "info": "컴퓨터 교육센터에서 코딩 멘토링에 참여할 멘토를\n모집합니다. 초급부터 고급까지 다양한 수준의 \n학습자들에게 가르쳐주실 분들을 기다립니다.",
-        "request": false
-      },
-      {
-        "category": 2,
-        "title": "도시락 나눔 봉사활동 참여자 모집",
-        "place": "서울시 강남구 역삼동",
-        "date": "24년 5월 29일 11:00",
-        "duration": "2시간",
-        "keyword": ["Volunteering", "Community", "Food Donation"],
-        "info": "사회복지센터에서 도시락 나눔 봉사활동을\n함께할 참여자를 모집합니다.\n행복을 전하는 작은 봉사에 참여해보세요!",
-        "request": true
-      },
-      {
-        "category": 3,
-        "title": "영어 회화 수업 선생님 모집",
-        "place": "경기도 고양시 일산동",
-        "date": "24년 5월 30일 18:00",
-        "duration": "1시간",
-        "keyword": ["English", "Conversation"],
-        "info": "자신 있는 분야가 아니라도 적극적인 참여로\n함께 소통하는 것이 목적입니다.",
-        "request": false
-      },
-      {
-        "category": 1,
-        "title": "피아노 강의 선생님 모집",
-        "place": "서울시 강남구 역삼동",
-        "date": "24년 5월 31일 15:00",
-        "duration": "2시간",
-        "keyword": ["Music", "Teaching"],
-        "info": "강남구 역삼동의 음악학원에서 피아노 강의를\n해주실 선생님을 모집합니다. 선생님의\n전문성을 중요하게 생각합니다.",
-        "request": true
-      },
-      {
-        "category": 2,
-        "title": "노인복지센터 방문 봉사",
-        "place": "서울시 강남구 역삼동",
-        "date": "24년 6월 1일 10:00",
-        "duration": "3시간",
-        "keyword": ["Volunteering", "Community"],
-        "info": "강남구 역삼동의 노인복지센터에서\n주말 봉사활동을 함께할 참여자를 모집합니다.\n노인들과 함께하는 시간을 소중히 여기며\n참여해주세요.",
-        "request": false
-      },
-      {
-        "category": 3,
-        "title": "프로그래밍 스터디 모집",
-        "place": "서울시 강남구 역삼동",
-        "date": "24년 6월 2일 14:00",
-        "duration": "4시간",
-        "keyword": ["Coding", "Study"],
-        "info": "강남구 역삼동의 스터디 카페에서\n프로그래밍 스터디를 함께할 스터디원을 모집합니다.",
-        "request": false
-      }
-    ]
-  }
+  "status": 200,
+  "success": true,
+  "message": "모든 멤버 조회 성공",
+  "data": [
+    {
+      "profileImage": "",
+      "bio": "",
+      "experience": "삼성전자 상무",
+      "education": "서울대학교 전기공학부",
+      "name": "김광호 Kim Kwang-ho",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user01.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=a31800c8178d619d1c5d0971b912f8586c7cef59b795cc9dd505e685b1a4ef2d23f4d781a8f8938fe0e1cf98874f828f78a8c4ce152ed3e447e42bac46ac1ad6c337af0391c3d98b3b62684a0b4a8888c1b3379a54048cbc5b94ed2f000742cf10403fbcd68e0dadb7b21922243cefd4f338365c5dea2ac15a694d85bd637841dab8f2ef8021f551286b4b8efe3daaeaa42f49eed15cc056e58957d7ce608ab30ed930c27e3ee58934ea07b2fdfb028346f2146a8349297e0d6bc3544159bc5d6671a17f6d2ec4274a55ad1c4a51e2f1fe8b91b68e696d4be936f1aa9b1d7378ec7d394af81530b78742faa922391300b01d046c7e524abfe92521ca4b2caef7"
+    },
+    {
+      "profileImage": "",
+      "bio": "아이를 사랑하는 따스한 마음을 전달하는 강숙영입니다.",
+      "experience": "초등학교 교사 25년",
+      "education": "광주교육대학교 학사",
+      "name": "강숙영 Kang Sook-young",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user02.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=145a12e844a42bd1f1e9ebaa2ccf55db9e4ba69e91d921ec8c697bd0c1df17b82b59b6ef92795db9fdb74eea888dd68d170e8853868d23a1e18c3bf21361ddb412fdebd01a62043dcba1d19a902d9c6a79f6837b5193472bbfdc26f63f0ff4f2757b64921cfb94a91459f294b0d61858ecdb5ec797fbf2e8beb59d402df804556311d4073fe7549278bfd0ca3d0a419d8c979a9054a0667daab47ee549bd2fb1d0c77334729b6dc06001c660c5a6b7a0891428c290f924e72f798b9a9ba30e01f8b7955cb284f04e0e2ee998cc869b71255e4fbd5b3183fcc75559c57059260e6987468aa7c4d7ec916d3140c2be02f465f70759c5319942af2e28d4ec823cd3"
+    },
+    {
+      "profileImage": "",
+      "bio": "",
+      "experience": "",
+      "education": "",
+      "name": "하성태 Ha Sung-tae",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user03.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=47cda022e727102ae074067dfdef49e050d47c62b9cbdcf0990ece8614ba28a6e44dca8a5ff0c37625fa1b25229c7979bcbef14477c9d2f85bd4ae0621a62553ef1c473346e19b5e4db2e50521d0ff447fdaa018914fb8322dfd3edfc8be5ba0bc685fb2179328f8e5ed71fae456ab3a4b9d0f01cc4a99b800fbed8165cf29dd21b977164116ff555d0bf03e2a84aa1725bdd5b527d76b331651309eb236468d3e0e2a4575cd6d33e68e773d372cff78fbfdaabebf2b4630949a8f716cdaa9f376e70fe144ce5220294367f886335483c70ddbf85e1b89d99e44a51a39626a880d20b0b98fba5f6e5d2870dd4dc16aa3695f331df441b2f43f573d3abb76cdba"
+    },
+    {
+      "profileImage": "  ",
+      "bio": "   ",
+      "experience": "   ",
+      "education": "    ",
+      "name": "최정희 Choi Jung Hee",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user04.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=43aafdf5f3cbcb50c3334bcf3bf8cb52bec7bc4248fe40bbc98e1b4972e4712113398d17bcb71b609784ef01b63c84e90512f0ec053cb4bc49310b85d721f2f5a5c33254b9976cac77f4f486608feb68dfb8855760d6781902d4ff516cae80413a918eba1d4d4acf110bfb032c8e05deb3b3b0036efbfe40a92caff59af7c9f8f256e0b6b841628e27cabf8661e714348661e1b482bb8eb0b19e87a56f96635a2767e18d17342bc7185272e68be08a1e22f9adc01a0fe155ca65fec60b65533f8e306f9a130fd2ec72865eb925d1e65af0dd759e82ffcd5aff1e06593d09df57a4544a5315322383b0be18e092deb49f118e51cd627f6c75ad3f5a607ba7b4b9"
+    },
+    {
+      "profileImage": "  ",
+      "bio": "   ",
+      "experience": "   ",
+      "education": "    ",
+      "name": "이재근 Lee Jae-geun",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user05.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=4a158d79d9ea9a979d84ef42bb41c2f708d79c8c708c7aa4d5acd3fc6ed12f00dceb984b0ed7a17734f287fda54d4be1d0328263fa300c1f5a1f2e0bb055372a63d395d97ef86297b89da962c19ac88e8646370e21439ba81c9f7889808faa8b2674207b05be445692c0aaccd7b8b6e32ba803ab7c38dd1372f557e1ee5aa889a8100d3a3815e4ce4bd5874533c55cbe8ebcc8c42719bfaafe8f54a5ed5072c6beba97d771be337779c06469c311442e6146121ccdb661bb6b6e9c930cb3a3b429effb989094d7d83751ce85a8402fc39466a68c31ceec8302087fbbd77ab6bd274dbc166be6ab75d2192234ecae9810b2b01fe82e851e8d88d052fa37739f70"
+    },
+    {
+      "profileImage": "  ",
+      "bio": "   ",
+      "experience": "   ",
+      "education": "    ",
+      "name": "김현정 Kim Hyeon-jung",
+      "image": "https://storage.googleapis.com/hackerthon-0510.appspot.com/user06.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=firebase-adminsdk-3c6dr%40hackerthon-0510.iam.gserviceaccount.com%2F20240511%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240511T215833Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=5f02264108f3eacadd40971f068eef7eb223ad5d95efa40caece2c8e5489ef7c19e57570abbe3a894d95929cd81a5acd9300f9866bbe63d417d1684199545311991023fb16c86318eda3930ba4a7cd97f7d55d0e8f37016031b24b5bce4dcf5d4ab2e7a55545a170635dbedee634d778a8e0966c31a8c5b2c484d7fdf6a48d32a2e9958a945a35c4758e7b4b88781ce920323feea649eaf8fd7529a7f0c5b2455d13862d18c80dd295e53dda73409123e323565ba4d6ae75ded22e72f83e06c6cb0dcbcf8ca729a4aa5906628da6d95cd4d981de883e33a18b5b1f7ec956317c698ca338489983efd52ea45993923f57d0a41e3363113332fffddd5d1f5fc012"
+    }
+  ]
+}

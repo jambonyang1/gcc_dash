@@ -1,19 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Card } from "antd";
-import {
-  SettingOutlined,
-  EditOutlined,
-  EllipsisOutlined,
-} from "@ant-design/icons";
 const { Meta } = Card;
 const Work = (props) => {
   const { event } = props;
-  const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found:a welcome guest in many households across the world.
-`;
   return (
     <StyledWrapper>
       {/* <div className="box">
