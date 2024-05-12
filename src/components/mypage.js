@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import data from "./user.json";
 import { Carousel, Image } from "antd";
-import ha from "./habio.png";
+import ha from "./gwang.png";
 
 const Mypage = () => {
   const contentStyle = {
