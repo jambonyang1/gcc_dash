@@ -4,11 +4,11 @@ import { Image } from "antd";
 
 const Senior = (props) => {
   const { event } = props;
-  console.log(event);
+  const logo = event.image;
   return (
     <StyledWrapper>
       <div className="box">
-        <Image src={event.image} />
+        <Image src={logo} />
       </div>
     </StyledWrapper>
   );
