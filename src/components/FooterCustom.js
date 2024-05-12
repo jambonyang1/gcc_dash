@@ -43,7 +43,7 @@ const Footer = () => {
             onClick={() => setSelectedLink("mypage")}
           >
             <UserOutlined />
-            <div>마이페이지</div>
+            <div>나</div>
           </Link>
         </div>
       </div>
