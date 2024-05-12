@@ -5,6 +5,8 @@ import Main from "./main";
 import Mentor from "./mentor";
 import Mypage from "./mypage";
 import Footer from "./FooterCustom";
+import Gwang from "./Gwang";
+import Soog from "./Soog";
 import logo from "./salm.png";
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/main" element={<Main />} />
         <Route path="/mentor" element={<Mentor />} />
         <Route path="/mypage" element={<Mypage />} />
+        <Route path="/mentor/gwang" element={<Gwang />} />
+        <Route path="/mentor/soog" element={<Soog />} />
       </Routes>
       <div className="foot"></div>
       <Footer />

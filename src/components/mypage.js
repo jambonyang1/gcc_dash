@@ -16,7 +16,7 @@ const Mypage = () => {
   };
   return (
     <StyledWrapper>
-      <Image src={ha} className="img" />
+      <Image src={ha} className="img" preview={false} />
       {/* <p>이름: {data.data.name}</p>
       <p>나이: {data.data.age}</p>
       <p>한줄소개: {data.data.bio}</p>

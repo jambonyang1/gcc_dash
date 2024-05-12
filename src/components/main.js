@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <StyledWrapper>
       <Card
-        cover={<Image alt="example" src={work_coding} />}
+        cover={<Image alt="example" src={work_coding} preview={false} />}
         actions={[
           <div className="button-orange">신청하기</div>,
           <div className="button">자세히</div>,
@@ -30,7 +30,7 @@ const Main = () => {
         />
       </Card>
       <Card
-        cover={<Image alt="example" src={work_dog} />}
+        cover={<Image alt="example" src={work_dog} preview={false} />}
         actions={[
           <div className="button-orange">신청하기</div>,
           <div className="button">자세히</div>,
@@ -47,7 +47,7 @@ const Main = () => {
         />
       </Card>
       <Card
-        cover={<Image alt="example" src={work_english} />}
+        cover={<Image alt="example" src={work_english} preview={false} />}
         actions={[
           <div className="button-orange">신청하기</div>,
           <div className="button">자세히</div>,
@@ -64,7 +64,7 @@ const Main = () => {
         />
       </Card>
       <Card
-        cover={<Image alt="example" src={work_kid} />}
+        cover={<Image alt="example" src={work_kid} preview={false} />}
         actions={[
           <div className="button-orange">신청하기</div>,
           <div className="button">자세히</div>,
@@ -81,7 +81,7 @@ const Main = () => {
         />
       </Card>
       <Card
-        cover={<Image alt="example" src={work_dosirak} />}
+        cover={<Image alt="example" src={work_dosirak} preview={false} />}
         actions={[
           <div className="button-orange">신청하기</div>,
           <div className="button">자세히</div>,

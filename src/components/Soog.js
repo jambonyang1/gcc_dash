@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Image } from "antd";
-import pf from "./gwang_profile.png";
-
-const Gwang = () => {
+import pf from "./soog_profile.png";
+const Soog = () => {
   return (
     <StyledWrapper>
       <Image src={pf} preview={false} />
@@ -11,6 +10,6 @@ const Gwang = () => {
   );
 };
 
-export default Gwang;
+export default Soog;
 
 const StyledWrapper = styled.div``;

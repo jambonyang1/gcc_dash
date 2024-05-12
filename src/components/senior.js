@@ -8,7 +8,7 @@ const Senior = (props) => {
   return (
     <StyledWrapper>
       <div className="box">
-        <Image src={logo} />
+        <Image src={logo} preview={false} />
       </div>
     </StyledWrapper>
   );
