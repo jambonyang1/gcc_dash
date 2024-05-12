@@ -25,7 +25,7 @@ export default App;
 
 const StyledWrapper = styled.div`
   text-align: center;
-  height: 100vh;
+  height: 100%;
   background: rgb(255, 255, 243);
   background: linear-gradient(
     180deg,
