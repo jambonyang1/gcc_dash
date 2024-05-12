@@ -21,12 +21,24 @@ const Footer = () => {
           </Link>
         </div>
         <div>
-          <Link className="nav-link" to="mentor">
+          <Link
+            className={
+              selectedLink === "mentor" ? "nav-link fw-bold" : "nav-link"
+            }
+            to="mentor"
+            onClick={() => setSelectedLink("mentor")}
+          >
             mentor
           </Link>
         </div>
         <div>
-          <Link className="nav-link" to="mypage">
+          <Link
+            className={
+              selectedLink === "mypage" ? "nav-link fw-bold" : "nav-link"
+            }
+            to="mypage"
+            onClick={() => setSelectedLink("mypage")}
+          >
             mypage
           </Link>
         </div>
