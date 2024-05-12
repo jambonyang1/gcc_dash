@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
+import { UserOutlined, TeamOutlined, HomeOutlined } from "@ant-design/icons";
 
 const Footer = () => {
   const [selectedLink, setSelectedLink] = useState("main");
@@ -17,7 +18,8 @@ const Footer = () => {
             to="/main"
             onClick={() => setSelectedLink("main")}
           >
-            main
+            <HomeOutlined />
+            <div>홈</div>
           </Link>
         </div>
         <div>
@@ -28,7 +30,8 @@ const Footer = () => {
             to="mentor"
             onClick={() => setSelectedLink("mentor")}
           >
-            mentor
+            <TeamOutlined />
+            <div>멘토들</div>
           </Link>
         </div>
         <div>
@@ -39,7 +42,8 @@ const Footer = () => {
             to="mypage"
             onClick={() => setSelectedLink("mypage")}
           >
-            mypage
+            <UserOutlined />
+            <div>마이페이지</div>
           </Link>
         </div>
       </div>
@@ -60,6 +64,6 @@ const StyledWrapper = styled.div`
     width: 100%;
     min-height: 60px;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 `;
