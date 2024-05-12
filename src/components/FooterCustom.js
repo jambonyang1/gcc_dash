@@ -31,7 +31,7 @@ const Footer = () => {
             onClick={() => setSelectedLink("mentor")}
           >
             <TeamOutlined />
-            <div>멘토들</div>
+            <div>멘토 찾기</div>
           </Link>
         </div>
         <div>
